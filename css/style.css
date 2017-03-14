@@ -94,3 +94,12 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+img.my-img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
