@@ -85,6 +85,11 @@ canvas{
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+@font-face {
+    font-family: pacifico;
+    src: url("Wisdom Script AJ.otf");
+}
 img.my-img{
     width: 200px;
     height: 200px;
@@ -95,6 +100,11 @@ img.my-img{
   color: white;
   text-align: center;
   font-size: 32px;
+}
+h2 {
+  font-family: pacifico;
+  width: 50%;
+  margin: auto;
 }
 /*i
 {
@@ -113,5 +123,5 @@ img.my-img{
 }
 .footer{
   bottom: 10px;
-
+  width: 100%;
 }
