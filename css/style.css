@@ -1,6 +1,4 @@
-/* =============================================================================
-   HTML5 CSS Reset Minified - Eric Meyer
-   ========================================================================== */
+
 
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
 body{line-height:1}
@@ -16,13 +14,6 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 li{list-style:none}
-
-
-/* =============================================================================
-   My CSS
-   ========================================================================== */
-
-/* ---- base ---- */
 
 html,body{ 
 	width:100%;
@@ -95,11 +86,32 @@ canvas{
   background-repeat: no-repeat;
 }
 img.my-img{
-    position: fixed;
-    top: 50%;
-    left: 50%;
     width: 200px;
     height: 200px;
-    margin-left: -100px;
-    margin-top: -100px;
+    border-radius: 25px;
+}
+.main-div {
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+/*i
+{
+    padding: 10px;
+    display: inline-block;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+}*/
+.fixed-position{
+  position: fixed;
+}
+.footer{
+  bottom: 10px;
+
 }
